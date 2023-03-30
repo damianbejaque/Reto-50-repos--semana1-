@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.blender {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-image: url(https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00003426445878-3l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF/img/licuadora-off.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blender.activer {
+    background-image: url(https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00003426445878-3l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF/img/licuadora-on.gif);
+}
+
+.blender-button{
+    margin: 363px auto 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+  }
